@@ -1,4 +1,4 @@
-### Adaptive Feeding: Achieving Fast and Accurate Detections by Adaptively Combining Object Detectors 
+## Adaptive Feeding: Achieving Fast and Accurate Detections by Adaptively Combining Object Detectors 
 
 Code in Python 2.7 for paper in ICCV 2017.
 
@@ -8,7 +8,7 @@ This code aims at reproducing the experimental results when combining R-FCN and 
 
 #### Step 1 
 
-Since we use SSD and R-FCN in our experiments, it is necessary to merge branches in [Single Shot Multibox Detector](https://github.com/weiliu89/caffe/tree/ssd) and [R-FCN](https://github.com/YuwenXiong/py-R-FCN). You can either do this by yourself or simply compile our code on the basis of [Single Shot Multibox Detector](https://github.com/weiliu89/caffe/tree/ssd), which means you should download the SSD CAFFE BRANCH before running our code and configure the DATASET (especially Pascal VOC) following the instruction written by [Wei Liu](https://github.com/weiliu89/caffe/tree/ssd)
+Since we use SSD and R-FCN in our experiments, it is necessary to merge branches in [Single Shot Multibox Detector](https://github.com/weiliu89/caffe/tree/ssd) and [R-FCN](https://github.com/YuwenXiong/py-R-FCN). You can either do this by yourself or simply compile our code on the basis of [Single Shot Multibox Detector](https://github.com/weiliu89/caffe/tree/ssd), which means you should download the SSD CAFFE BRANCH before running our code and configure the DATASET (especially Pascal VOC) following the instruction written by [Wei Liu](https://github.com/weiliu89/caffe/tree/ssd).
 
 #### Step 2
 
@@ -82,4 +82,4 @@ For your convenience, we already provided extracted proposals from Tiny-YOLO (un
 
 #### Miscellaneous
 
-In addition to the official experimental code, we also provided a file named *video_demo.py* under *AF/* in order to help you make a demo like [this](http://zhouhy.org/videos/skyfall_piece.mp4). To produce such a video, you need to follow the instructions in code and employ [ffmpeg](https://www.ffmpeg.org/) to organize frames. If you have any question, please feel free to contact me at whuzhouhongyu@gmail.com
+In addition to the official experimental code, we also provided a file named *video_demo.py* under *AF/* in order to help you make a demo like [this](http://zhouhy.org/videos/skyfall_piece.mp4). To produce such a video, you need to follow the instructions in code and employ [ffmpeg](https://www.ffmpeg.org/) to organize frames. If you have any question, please feel free to contact me at whuzhouhongyu@gmail.com.
